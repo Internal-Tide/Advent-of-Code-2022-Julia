@@ -11,7 +11,7 @@ end
 #  C/Z SCISSORS  3           Z => Y => X => Z
 
 # Part1
-filename2 = "/mnt/c/Users/tianzhiwei/Desktop/advent of code/day2.txt"
+filename2 = "input/day2.txt"
 input = read_from_txt(filename2)
 
 function part1(input)

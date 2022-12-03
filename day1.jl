@@ -7,12 +7,12 @@ end
 
 
 # DAY1
-filename1 = "/mnt/c/Users/tianzhiwei/Desktop/input.txt"
-txt = readlines(filename1, keep=false)
+filename1 = "input/day1.txt"
+input = read_from_txt(filename1)
 # Part 1
 data = Int[]
 sum = 0
-for i in txt
+for i in input
     if i == ""
         push!(data, sum)
         sum = 0

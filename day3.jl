@@ -5,8 +5,7 @@ function read_from_txt(filename)
     return lines
 end
 
-input = read_from_txt("/mnt/c/Users/tianzhiwei/Desktop/\
-    advent of code/day3.txt")
+input = read_from_txt("input/day3.txt")
 
 # Part1
 function part_1(input)
